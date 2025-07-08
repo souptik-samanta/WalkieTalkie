@@ -1,13 +1,52 @@
+title: "2KM NRF Walkie Talkie"  
+author: "Souptik Samanta"  
+description: "homemade walkie talkie with 2km range using nrf and esp32 and also radio recive transmit for fun lol"  
+created_at: "2025-06-01"  
 
-HELLO GUYS I AM SOUPTIK SAMANTA
-I AM MAKING A WALKIE TALKIE WITH A RANGE OF 2KM .IT WILL HAVE NRF CAPABILITES SO U USE THAT TO TALK IN SHORT DISTANCE BUT CLEARLY
-### ✅ Total Time Spent: 0
 ---
-| **Date** | **Time** | **Notes** | **Pics / Links** |
-|----------|----------|-----------|------------------|
-||worked and researched the freqs that are allowed in the indian subcontinets and mesured the distance b/w me nd my neighbour(i wil test this at his home loll) and yea thats it 4hr went in that ,L , but i learned many thinfs too like what happens if we transmit illegaly and moar.||
-|1st june |2hr |so today i made the design on paper list the features and future plans ||
 
-|1 JUNE|3.5HR| I LAYED ALL COMPONENTES CONNECTED MOST OF THEM ADDED A USB C INTERFACE WITH A ESP 32 CHIP|![|](image.png)|
-|date idk|9hr|found parts t o add to my radio so i can liten to readio and talk at same time research took mosttime :sob:..also it has feature to transmit radio too :hehe|pic !["alt text"](image-1.png)|
+### Total Time Taken: around 24hrs (maybe more lol)
+
 ---
+
+## Day 1 - ~4hrs  
+researched about legal freqs in india  
+i kinda deep dived into docs and posts and found which ones i can actually use without going to jail lol  
+measured distance from my house to my friend’s for range test (he willl be my lab test sub basically)
+
+also ended up reading too much on illegal transmission...not gonna do that dw
+
+---
+
+## Day 2 - ~3hrs  
+drew up the layout on paper  
+listed out the features like audio tx/rx, maybe add a screen idk  
+not final yet but idea is solid  
+want it to work offline too like short range voice over nrf
+
+---
+
+## Day 3 - ~4.5hrs  
+connected stuff on breadboard (esp32 + usb-c + amp + mic)  
+most stuff worked  
+still testing nrf lib (found a buggy one but kinda fixed it)  
+trying to keep it small and powered by li-ion battery  
+usb-c charging works!!
+
+![Build Progress](./img/image.png)
+
+---
+
+## Day 4 - ~10hrs (or more idk)  
+spent whole day researching modules for radio receive + transmit  
+found a way to use it like a fm radio too  
+added speaker + mic with switch  
+was messy, took hours, some stuff still not stable  
+but yea now it can talk + maybe listen to radio  
+no clue about final box tho
+
+![Radio Stuff](./img/image-1.png)
+
+---
+
+might add more features later like channel select or OLED screen... or just move to custom pcb if this one lives lol
