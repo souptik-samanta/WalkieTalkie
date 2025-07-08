@@ -1,7 +1,9 @@
-title: "2KM NRF Walkie Talkie"  
-author: "Souptik Samanta"  
-description: "homemade walkie talkie with 2km range using nrf and esp32 and also radio recive transmit for fun lol"  
-created_at: "2025-06-01"  
+---
+title: "Walkie Talkie"
+author: "Souptik Samanta"
+description: "homemade walkie talkie with infinite range using nrf and esp32 and also radio recive transmit for fun lol"
+created_at: "2025-06-01"
+--- 
 
 ---
 
